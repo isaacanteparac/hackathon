@@ -50,3 +50,14 @@
         - detalle paso a paso de las actividades
         - nivel de expe(expectatia vs realidad)
         - diagrama de flujo
+        - se puede mostrar capturas de pantalla para saber como se ve, etc
+    > LO IMPORTANTE ES SIMULAR LA EXPERIENCIA   
+4. testear constantemente
+    1. centrarse en la expe
+    2. ecoger con quien vamos a testear 
+    3. metodos de test
+        - osbservacion directa
+        - observacion remota
+
+>REPETIR HASTA CUMPLIR LOS CRITERIOS CUMPLA SUFICIENTEMENT BIEN
+> NUNCA VA A ESTAR PERFECTO, SACARLO Y LUEGO HACER ACTUALIZACIONES, SIEMPRE DEBE TENER UNA FECHA LIMITE
