@@ -60,7 +60,7 @@
 
 .Navigation-divContainer {
   position: fixed;
-  background-color: #ffdc00;
+  background-color: #ffcc00;
   height: 95%;
   width: 95%;
   border-radius: 20px;
@@ -108,6 +108,10 @@
   text-transform: capitalize;
   cursor: pointer;
   padding-inline: 10px;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .Navigation-divContainer-ul-li:hover, .Navigation-divContainer-subUl-li:hover {

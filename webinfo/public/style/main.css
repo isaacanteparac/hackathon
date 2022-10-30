@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-top: 10%;
 }
 
 .Main-description {
@@ -21,7 +22,7 @@
   margin-bottom: 20px;
   color: #999;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 .Main-description-p {

@@ -10,19 +10,8 @@
     <title>Thousand Suns</title>
   </head>
   <body>
-    <header class="Header" id="header">
-      <div class="Header-divLogo">
-        <img src="./../public/img/sun.png" alt="" />
-        <h1 class="Header-divLogo-h1">Thousand Suns</h1>
-      </div>
-      <div class="Navigation">
-        <button class="Navigation-buttonMenu" onclick="navigation()">
-          <div class="Navigation-buttonMenu-linePlus"></div>
-          <div class="Navigation-buttonMenu-linePlus"></div>
-          <div class="Navigation-buttonMenu-linePlus"></div>
-        </button>
-      </div>
-    </header>
+
+    <!--TITLE:NAVIGATION-->
     <nav class="Navigation-divContainer" id="navigation">
       <button class="Navigation-buttonMenu" onclick="navigation(false)">
         <div class="Navigation-buttonMenu-lineClose"></div>
@@ -31,9 +20,9 @@
       <ul class="Navigation-divContainer-ul">
         <li
           class="Navigation-divContainer-ul-li"
-          onclick="moveSelection('header')"
+          onclick="moveSelection('descriptioProject')"
         >
-          Home
+          Descripcion
         </li>
 
         <li
@@ -80,6 +69,9 @@
         </li>
       </ul>
     </nav>
+
+
+    <!--TITLE:MAIN-->
     <main class="Main" id="main">
       <div class="Main-description" id="descriptioProject">
         <h1 class="Main-description-h1">Descripcion general</h1>
@@ -127,7 +119,7 @@
 
           <div class="Main-container-card-description">
             <h1 class="Main-container-card-description-h1">
-              Hola mundo moderno apestoso a mierda
+              Informacion de la aplicacion y capturas de pantallas
             </h1>
             <p class="Main-container-card-imgLeft-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
@@ -149,7 +141,7 @@
         <div class="Main-container-card-textleft" id="projectPart2">
           <div class="Main-container-card-description">
             <h1 class="Main-container-card-description-h1">
-              Hola mundo moderno apestoso a mierda
+              Informacion de la aplicacion y capturas de pantallas
             </h1>
             <p class="Main-container-card-imgLeft-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
@@ -186,7 +178,7 @@
 
           <div class="Main-container-card-description">
             <h1 class="Main-container-card-description-h1">
-              Hola mundo moderno apestoso a mierda
+              Informacion de la aplicacion y capturas de pantallas
             </h1>
             <p class="Main-container-card-imgLeft-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
@@ -208,7 +200,7 @@
         <div class="Main-container-card-textleft" id="projectPart4">
           <div class="Main-container-card-description">
             <h1 class="Main-container-card-description-h1">
-              Hola mundo moderno apestoso a mierda
+              Informacion de la aplicacion y capturas de pantallas
             </h1>
             <p class="Main-container-card-imgLeft-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
@@ -236,6 +228,27 @@
         </div>
       </section>
     </main>
+
+
+    <!--TITLE:HEADER-->
+    <header class="Header" id="header">
+      <div class="Header-divLogo">
+        <img src="./../public/img/sun.png" alt="" />
+        <h1 class="Header-divLogo-h1" onclick="moveSelection('')">
+          Thousand Suns
+        </h1>
+      </div>
+      <div class="Navigation">
+        <button class="Navigation-buttonMenu" onclick="navigation()">
+          <div class="Navigation-buttonMenu-linePlus"></div>
+          <div class="Navigation-buttonMenu-linePlus"></div>
+          <div class="Navigation-buttonMenu-linePlus"></div>
+        </button>
+      </div>
+    </header>
+
+
+    <!--TITLE:FOOTER-->
     <footer class="Footer" id="footer">hola</footer>
   </body>
 </html>

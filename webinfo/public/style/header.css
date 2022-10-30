@@ -6,7 +6,13 @@ header {
   display: grid;
   grid-template-columns: 95% 4%;
   background-color: #fff;
-  margin-top: 8%;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  position: fixed;
+  width: 100%;
+  top: 0%;
 }
 
 .Header-divLogo {
@@ -19,7 +25,12 @@ header {
 .Header-divLogo-h1 {
   font-family: "Capriola", sans-serif;
   font-size: 50px;
-  color: #14243C;
+  color: #14243c;
+  cursor: pointer;
+}
+
+.Header-divLogo-h1:hover {
+  text-shadow: 0 0 0.2em #ffcc00, 0 0 0.2em #ffcc00, 0 0 0.2em #ffcc00;
 }
 
 .Header-divNav {
