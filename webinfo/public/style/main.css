@@ -50,6 +50,8 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   padding: 0;
+  padding-block: 200px;
+
 }
 
 .Main-container-card-textleft {
@@ -60,7 +62,7 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   padding: 0;
-  margin-block: 200px;
+  padding-block: 200px;
 }
 
 .Main-container-card-contentImg {

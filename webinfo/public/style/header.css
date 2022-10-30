@@ -11,6 +11,9 @@ header {
 
 .Header-divLogo {
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Header-divLogo-h1 {
