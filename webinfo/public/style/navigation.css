@@ -83,7 +83,6 @@
   top: 4%;
 }
 
-
 .Navigation-divContainer .Navigation-buttonMenu {
   top: 5%;
   left: 92%;
@@ -99,17 +98,36 @@
   list-style-type: none;
 }
 
-.Navigation-divContainer-ul-li {
-    font-family: 'Raleway', sans-serif;
-    font-weight:600;
-    font-size: 25px;
-    color: #2A394E;
-    margin-block: 10px;
-    text-transform: capitalize;
-    cursor: pointer;
-    padding-inline: 10px;
+.Navigation-divContainer-ul-li,
+.Navigation-divContainer-startul-li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #2a394e;
+  margin-block: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding-inline: 10px;
 }
 
-.Navigation-divContainer-ul-li:hover{
-    text-decoration: underline #fff;
+.Navigation-divContainer-ul-li:hover, .Navigation-divContainer-subUl-li:hover {
+  text-decoration: underline #fff;
 }
+
+.Navigation-divContainer-startul-li:hover .Navigation-divContainer-subUl {
+  display: block;
+}
+
+.Navigation-divContainer-subUl {
+  position: relative;
+  margin-top: 15px;
+  left: 50px;
+  display: none;
+  transition: all 0.5s;
+}
+
+.Navigation-divContainer-subUl-li {
+  font-size: 23px;
+}
+
+
