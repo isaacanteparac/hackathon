@@ -1,0 +1,115 @@
+.Navigation-buttonMenu {
+  position: fixed;
+  top: 2%;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  background-color: #e5e5e5;
+}
+
+.Navigation-buttonMenu:active {
+  border: 3px solid #2a394e;
+}
+
+.Navigation-buttonMenu-linePlus {
+  height: 4px;
+  border-radius: 10px;
+  width: 80%;
+  background-color: #2a394e;
+  margin-block: 2px;
+  transition: all 0.5s;
+  transform-origin: center;
+}
+
+.Navigation-buttonMenu:hover .Navigation-buttonMenu-linePlus:nth-child(1) {
+  opacity: 0;
+}
+
+.Navigation-buttonMenu:hover .Navigation-buttonMenu-linePlus:nth-child(3) {
+  transform: rotate(90deg);
+  position: relative;
+  bottom: 8px;
+}
+
+.Navigation-buttonMenu-lineClose {
+  height: 4px;
+  border-radius: 10px;
+  width: 80%;
+  background-color: #2a394e;
+  margin-block: 2px;
+}
+
+.Navigation-buttonMenu .Navigation-buttonMenu-lineClose:nth-child(1) {
+  position: relative;
+  top: 5px;
+  transform: rotate(50deg);
+}
+
+.Navigation-buttonMenu .Navigation-buttonMenu-lineClose:nth-child(2) {
+  position: relative;
+  bottom: 3px;
+  left: 1px;
+  transform: rotate(-50deg);
+}
+
+.Navigation-divContainer {
+  position: fixed;
+  background-color: #ffdc00;
+  height: 95%;
+  width: 95%;
+  border-radius: 20px;
+  left: 2%;
+  top: 2%;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  overflow: hidden;
+  display: none;
+}
+
+.Navigation-divContainer:hover {
+  height: 90%;
+  width: 90%;
+  left: 4%;
+  top: 4%;
+}
+
+
+.Navigation-divContainer .Navigation-buttonMenu {
+  top: 5%;
+  left: 92%;
+}
+
+.Navigation-divContainer-ul {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.Navigation-divContainer-ul-li {
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    font-size: 25px;
+    color: #2A394E;
+    margin-block: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding-inline: 10px;
+}
+
+.Navigation-divContainer-ul-li:hover{
+    text-decoration: underline #fff;
+}

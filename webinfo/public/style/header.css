@@ -1,0 +1,24 @@
+header {
+  grid-column: col-start 2 / span 10;
+  grid-row: 1;
+  padding-block: 5px;
+  padding-inline: 10px;
+  display: grid;
+  grid-template-columns: 95% 4%;
+  background-color: #fff;
+  margin-top: 8%;
+}
+
+.Header-divLogo {
+  background-color: transparent;
+}
+
+.Header-divLogo-h1 {
+  font-family: "Capriola", sans-serif;
+  font-size: 50px;
+  color: #14243C;
+}
+
+.Header-divNav {
+  background-color: blue;
+}

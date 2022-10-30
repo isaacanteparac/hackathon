@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../public/style/index.css" />
+    <script src="../public/logic/btn.js"></script>
+    <script src="../public/logic/animation.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <header class="Header" id="header">
+      <div class="Header-divLogo">
+        <h1 class="Header-divLogo-h1">Black Hole</h1>
+      </div>
+      <div class="Navigation">
+        <button class="Navigation-buttonMenu" onclick="navigation()">
+          <div class="Navigation-buttonMenu-linePlus"></div>
+          <div class="Navigation-buttonMenu-linePlus"></div>
+          <div class="Navigation-buttonMenu-linePlus"></div>
+        </button>
+      </div>
+    </header>
+    <nav class="Navigation-divContainer" id="navigation">
+      <button class="Navigation-buttonMenu" onclick="navigation(false)">
+        <div class="Navigation-buttonMenu-lineClose"></div>
+        <div class="Navigation-buttonMenu-lineClose"></div>
+      </button>
+      <ul class="Navigation-divContainer-ul">
+        <li
+          class="Navigation-divContainer-ul-li"
+          onclick="moveSelection('descriptioProject')"
+        >
+          Sobre
+        </li>
+        <li
+          class="Navigation-divContainer-ul-li"
+          onclick="moveSelection('problematicPorject')"
+        >
+          Problematica
+        </li>
+
+        <li
+          class="Navigation-divContainer-ul-li"
+          onclick="moveSelection('projectWork')"
+        >
+          Proyecto
+        </li>
+        <li
+          class="Navigation-divContainer-ul-li"
+          onclick="moveSelection('footer')"
+        >
+          Contactos
+        </li>
+      </ul>
+    </nav>
+    <main class="Main" id="main">
+      <div class="Main-description" id="descriptioProject">
+        <h1 class="Main-description-h1">Descripcion general</h1>
+        <p class="Main-description-p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta
+          unde, optio omnis debitis quo voluptates at minima eum ex ratione, qui
+          quae ad dolorum cum eos nulla expedita in. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Fuga soluta unde, optio omnis debitis
+          quo voluptates at minima eum ex ratione, qui quae ad dolorum cum eos
+          nulla expedita in. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Blanditiis maxime nihil a totam, odio necessitatibus magni id
+          praesentium amet ipsa nesciunt natus dignissimos aperiam deserunt
+          sequi aliquid tempora. Quo, ipsum. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Architecto eaque dolorum consequuntur
+          impedit unde quae nulla ab quis! Maxime nobis doloribus rem itaque
+          ducimus quibusdam mollitia reiciendis laborum, exercitationem placeat!
+        </p>
+      </div>
+      <div class="Main-description" id="problematicPorject">
+        <h1 class="Main-description-h1">Problematica</h1>
+        <p class="Main-description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta
+            unde, optio omnis debitis quo voluptates at minima eum ex ratione, qui
+            quae ad dolorum cum eos nulla expedita in. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Fuga soluta unde, optio omnis debitis
+            quo voluptates at minima eum ex ratione, qui quae ad dolorum cum eos
+            nulla expedita in. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Blanditiis maxime nihil a totam, odio necessitatibus magni id
+            praesentium amet ipsa nesciunt natus dignissimos aperiam deserunt
+            sequi aliquid tempora. Quo, ipsum. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Architecto eaque dolorum consequuntur
+            impedit unde quae nulla ab quis! Maxime nobis doloribus rem itaque
+            ducimus quibusdam mollitia reiciendis laborum, exercitationem placeat!
+        </p>
+      </div>
+      <section class="Main-container" id="projectWork">
+        <div class="Main-container-card-textRight">
+          <div class="Main-container-card-contentImg">
+            <img
+              class="Main-container-card-contentImg-img --shadowYellow"
+              src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solar-orbiter-toma-imagenes-del-sol-como-nunca-antes/9437612-1-esl-MX/Solar-Orbiter-toma-imagenes-del-Sol-como-nunca-antes.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="Main-container-card-description">
+            <h1 class="Main-container-card-description-h1">
+              Hola mundo moderno apestoso a mierda
+            </h1>
+            <p class="Main-container-card-imgLeft-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta
+                unde, optio omnis debitis quo voluptates at minima eum ex ratione, qui
+                quae ad dolorum cum eos nulla expedita in. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Fuga soluta unde, optio omnis debitis
+                quo voluptates at minima eum ex ratione, qui quae ad dolorum cum eos
+                nulla expedita in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Blanditiis maxime nihil a totam, odio necessitatibus magni id
+                praesentium amet ipsa nesciunt natus dignissimos aperiam deserunt
+                sequi aliquid tempora. Quo, ipsum. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Architecto eaque dolorum consequuntur
+                impedit unde quae nulla ab quis! Maxime nobis doloribus rem itaque
+                ducimus quibusdam mollitia reiciendis laborum, exercitationem placeat!
+            </p>
+          </div>
+        </div>
+        <div class="Main-container-card-textleft">
+          <div class="Main-container-card-description">
+            <h1 class="Main-container-card-description-h1">
+              Hola mundo moderno apestoso a mierda
+            </h1>
+            <p class="Main-container-card-imgLeft-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta
+                unde, optio omnis debitis quo voluptates at minima eum ex ratione, qui
+                quae ad dolorum cum eos nulla expedita in. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Fuga soluta unde, optio omnis debitis
+                quo voluptates at minima eum ex ratione, qui quae ad dolorum cum eos
+                nulla expedita in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Blanditiis maxime nihil a totam, odio necessitatibus magni id
+                praesentium amet ipsa nesciunt natus dignissimos aperiam deserunt
+                sequi aliquid tempora. Quo, ipsum. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Architecto eaque dolorum consequuntur
+                impedit unde quae nulla ab quis! Maxime nobis doloribus rem itaque
+                ducimus quibusdam mollitia reiciendis laborum, exercitationem placeat!
+            </p>
+          </div>
+          <div class="Main-container-card-contentImg">
+            <img
+              class="Main-container-card-contentImg-img --shadowBlue"
+              src="https://www.santander.com.mx/personas/santander-digital/supermovil/assets/img/img-header.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="Main-container-card-textRight">
+          <div class="Main-container-card-contentImg">
+            <img
+              class="Main-container-card-contentImg-img --shadowGreen"
+              src="https://creatuaplicacion.com/wp-content/uploads/2018/03/creatuaplicacion_app.png"
+              alt=""
+            />
+          </div>
+
+          <div class="Main-container-card-description">
+            <h1 class="Main-container-card-description-h1">
+              Hola mundo moderno apestoso a mierda
+            </h1>
+            <p class="Main-container-card-imgLeft-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta
+                unde, optio omnis debitis quo voluptates at minima eum ex ratione, qui
+                quae ad dolorum cum eos nulla expedita in. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Fuga soluta unde, optio omnis debitis
+                quo voluptates at minima eum ex ratione, qui quae ad dolorum cum eos
+                nulla expedita in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Blanditiis maxime nihil a totam, odio necessitatibus magni id
+                praesentium amet ipsa nesciunt natus dignissimos aperiam deserunt
+                sequi aliquid tempora. Quo, ipsum. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Architecto eaque dolorum consequuntur
+                impedit unde quae nulla ab quis! Maxime nobis doloribus rem itaque
+                ducimus quibusdam mollitia reiciendis laborum, exercitationem placeat!
+            </p>
+          </div>
+        </div>
+        <div class="Main-container-card-textleft">
+          <div class="Main-container-card-description">
+            <h1 class="Main-container-card-description-h1">
+              Hola mundo moderno apestoso a mierda
+            </h1>
+            <p class="Main-container-card-imgLeft-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta
+                unde, optio omnis debitis quo voluptates at minima eum ex ratione, qui
+                quae ad dolorum cum eos nulla expedita in. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Fuga soluta unde, optio omnis debitis
+                quo voluptates at minima eum ex ratione, qui quae ad dolorum cum eos
+                nulla expedita in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Blanditiis maxime nihil a totam, odio necessitatibus magni id
+                praesentium amet ipsa nesciunt natus dignissimos aperiam deserunt
+                sequi aliquid tempora. Quo, ipsum. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Architecto eaque dolorum consequuntur
+                impedit unde quae nulla ab quis! Maxime nobis doloribus rem itaque
+                ducimus quibusdam mollitia reiciendis laborum, exercitationem placeat!
+            </p>
+          </div>
+          <div class="Main-container-card-contentImg">
+            <img
+              class="Main-container-card-contentImg-img --shadowPink"
+              src="https://clockify.me/assets/images/time-tracking-app-mobile.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="Footer" id="footer">hola</footer>
+  </body>
+</html>
