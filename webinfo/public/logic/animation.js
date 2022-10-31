@@ -3,7 +3,7 @@ function headerAnimation() {
   let HeaderButtonNav = document.getElementById("HeaderButtonNav");
   let scroll = document.documentElement.scrollTop;
   if (scroll === 0) {
-    idheader.style.cssText = "margin-top: 8%;";
+    idheader.style.cssText = "margin-block: 10%;";
   } else {
     HeaderButtonNav.style.cssText = "top:2.5%";
     idheader.style.cssText =
@@ -28,20 +28,20 @@ window.addEventListener("scroll", () =>
 );
 
 window.addEventListener("scroll", () =>
-  projectPartAnimation("problematicPorject", 300, "up")
+  projectPartAnimation("problematicPorject", 100, "up")
 );
 window.addEventListener("scroll", () =>
-  projectPartAnimation("projectPart1", 1200, "left")
-);
-
-window.addEventListener("scroll", () =>
-  projectPartAnimation("projectPart2", 2100, "right")
+  projectPartAnimation("projectPart1", 500, "left")
 );
 
 window.addEventListener("scroll", () =>
-  projectPartAnimation("projectPart3", 3044, "left")
+  projectPartAnimation("projectPart2", 1140, "right")
 );
 
 window.addEventListener("scroll", () =>
-  projectPartAnimation("projectPart4", 4044, "right") 
+  projectPartAnimation("projectPart3", 1700, "left")
+);
+
+window.addEventListener("scroll", () =>
+  projectPartAnimation("projectPart4", 2400, "right")
 );

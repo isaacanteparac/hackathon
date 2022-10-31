@@ -6,7 +6,7 @@ header {
   display: grid;
   grid-template-columns: 95% 4%;
   background-color: #fff;
-  margin-top: 8%;
+  margin-block: 10%;
 }
 
 .Header-divLogo {
