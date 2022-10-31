@@ -12,7 +12,6 @@ function navigation(bool = true) {
     main();
     footer();
     HeaderButtonNav.style.display = "flex";
-
     navigation.style.display = "none";
   }
 }

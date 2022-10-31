@@ -12,7 +12,7 @@
 .Main-description {
   background-color: transparent;
   width: 100%;
-  padding-block: 180px;
+  padding-block: 120px;
 }
 
 .Main-description-h1 {
@@ -50,7 +50,7 @@
   -ms-user-select: none;
   padding: 0;
   padding-block: 200px;
-
+  opacity: 0;
 }
 
 .Main-container-card-textleft {
@@ -62,6 +62,7 @@
   -ms-user-select: none;
   padding: 0;
   padding-block: 200px;
+  opacity: 0;
 }
 
 .Main-container-card-contentImg {
@@ -130,4 +131,60 @@
   font-family: "Roboto Flex", sans-serif;
   font-size: 20px;
   color: #3c519f;
+}
+
+.up {
+  animation: up 1s;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bottom {
+  animation: bottom 1s;
+}
+
+@keyframes bottom {
+  0% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.left {
+  animation: left 1s;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-60px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.right {
+  animation: right 1s;
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(60px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#problematicPorject {
+  opacity: 0;
 }
