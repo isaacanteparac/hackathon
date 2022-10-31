@@ -14,17 +14,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .Header-divLogo-h1 {
   font-family: "Capriola", sans-serif;
   font-size: 50px;
   color: #14243c;
-  cursor: pointer;
+  cursor: default;
 }
 
 .Header-divLogo-h1:hover {
-  text-shadow: 0 0 0.2em #F1C40F, 0 0 0.2em #F1C40F, 0 0 0.2em #F1C40F;
+  text-shadow: 0 0 0.1em #F1C40F, 0 0 0.1em #F1C40F, 0 0 0.1em #F1C40F;
 }
 
 .Header-divNav {

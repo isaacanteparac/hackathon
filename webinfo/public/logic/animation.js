@@ -35,7 +35,7 @@ window.addEventListener("scroll", () =>
 );
 
 window.addEventListener("scroll", () =>
-  projectPartAnimation("projectPart2", 1140, "right")
+  projectPartAnimation("projectPart2", 1090, "right")
 );
 
 window.addEventListener("scroll", () =>
@@ -43,5 +43,5 @@ window.addEventListener("scroll", () =>
 );
 
 window.addEventListener("scroll", () =>
-  projectPartAnimation("projectPart4", 2400, "right")
+  projectPartAnimation("projectPart4", 2356, "right")
 );

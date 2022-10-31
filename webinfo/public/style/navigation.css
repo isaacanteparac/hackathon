@@ -106,7 +106,7 @@
   color: #2a394e;
   margin-block: 10px;
   text-transform: capitalize;
-  cursor: pointer;
+  cursor: default;
   padding-inline: 10px;
   -moz-user-select: none;
   -webkit-user-drag: none;

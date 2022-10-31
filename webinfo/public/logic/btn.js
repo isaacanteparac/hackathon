@@ -37,7 +37,7 @@ function main(bool = true) {
 function footer(bool = true) {
   const footer = document.getElementById("footer");
   if (bool) {
-    footer.style.display = "flex";
+    footer.style.display = "grid";
   } else {
     footer.style.display = "none";
   }
@@ -46,4 +46,18 @@ function footer(bool = true) {
 function moveSelection(idElement) {
   navigation(false);
   location.hash = "#" + idElement;
+}
+
+function windowBlurImg(bool = true, url = "") {
+  const windowBlurImg = document.getElementById("windowBlurImg");
+  const imgBlur = document.getElementById("imgBlur");
+  if (bool) {
+    header(false);
+    imgBlur.src = "" + url;
+    windowBlurImg.style.display = "flex";
+  } else {
+    header();
+    imgBlur.src = "";
+    windowBlurImg.style.display = "none";
+  }
 }
