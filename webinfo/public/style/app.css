@@ -12,6 +12,15 @@ body {
   gap: 10px;
 }
 
+
+:root {
+  --cabaret: #ff0745;
+  --casablanca: #ffc107;
+  --keppek: #36BC9B;
+  --havelockBlue: #0745ff;
+  --colorText:#14243c;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
