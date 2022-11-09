@@ -21,6 +21,7 @@ function projectPartAnimation(id_, nScroll, nameClass_) {
   }
 }
 
+
 window.addEventListener("scroll", headerAnimation);
 
 window.addEventListener("scroll", () =>
